@@ -75,26 +75,26 @@ users = {
 # ans5 = users["Erik"][:lottery_numbers].min
 # puts ans5
 # 6. Return an array of Avril's lottery numbers that are even
-# ans6 = users["Avril"][:lottery_numbers].select(&:even?).join(", ")
-# puts ans6
+  # ans6 = users["Avril"][:lottery_numbers].select(&:even?).join(", ")
+  # puts ans6
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
-# users["Erik"][:lottery_numbers].push(7)
+  # users["Erik"][:lottery_numbers].push(7)
 # 8. Change Erik's hometown to Edinburgh
-# users["Erik"][:hometown] = "Edinburgh"
+  # users["Erik"][:hometown] = "Edinburgh"
 # 9. Add a pet dog to Erik called "Fluffy"
-# users["Erik"][:pets] << {
-#   name: "Fluffy",
-#   species: "dog"
-# }
+  # users["Erik"][:pets] << {
+  #   name: "Fluffy",
+  #   species: "dog"
+  # }
 # 10. Add another person to the users hash
-# users <<  "Michael" => {
-#     :twitter => "BigMike",
-#     :lottery_numbers => [8, 18, 28, 38, 48, 58],
-#     :home_town => "Hong Kong",
-#     :pets => [
-#     {
-#       :name => "BorkChop",
-#       :species => "doggo"
-#     }
-#   ]
-#   }
+users <<  "Michael" => {
+    :twitter => "BigMike",
+    :lottery_numbers => [8, 18, 28, 38, 48, 58],
+    :home_town => "Hong Kong",
+    :pets => [
+    {
+      :name => "BorkChop",
+      :species => "doggo"
+    }
+  ]
+  }

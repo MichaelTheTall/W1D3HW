@@ -31,7 +31,7 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 # return stops.fetch(2)
 #
 # # 9. Reverse the positions of the stops in the array
-# stops.reverse!
+# puts stops.reverse
 
 # 10. Print out all the stops using a for loop
 #
