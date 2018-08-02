@@ -11,15 +11,17 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 #
 # # 4. Work out the index position of `"Linlithgow"`
 # "Index of Linlithgow is 3"
+# puts stops.index("Linlithgow")
 #
 # # 5. Remove `"Livingston"` from the array using its name
 # stops.delete("Livingston")
 #
 # # 6. Delete `"Cumbernauld"` from the array by index
-# stops.delete_at(1)
+# index = stops.index("Cumbernauld")
+# stops.delete_at(index)
 #
 # # 7. How many stops there are in the array?
-# return stops.length
+# puts stops.length
 # # "There are 6 stops in the array."
 #
 # # 8. How many ways can we return `"Falkirk High"` from the array?
@@ -29,7 +31,7 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 # return stops.fetch(2)
 #
 # # 9. Reverse the positions of the stops in the array
-# return stops.reverse
+# stops.reverse!
 
 # 10. Print out all the stops using a for loop
 #
