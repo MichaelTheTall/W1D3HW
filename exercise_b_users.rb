@@ -55,24 +55,24 @@ users = {
 }
 
 # 1. Get Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
-# ans1 = users["Jonathan"][:twitter]
-# puts "1"
-# puts ans1
+  # ans1 = users["Jonathan"][:twitter]
+  # puts "1"
+  # puts ans1
 # 2. Get Erik's hometown
-# ans2 = users["Erik"][:home_town]
-# puts "2"
-# puts ans2
+  # ans2 = users["Erik"][:home_town]
+  # puts "2"
+  # puts ans2
 # 3. Get the array of Erik's lottery numbers
-# ans3 = users["Erik"][:lottery_numbers]
-# puts "3"
-# puts ans3
+  # ans3 = users["Erik"][:lottery_numbers]
+  # puts "3"
+  # puts ans3
 # 4. Get the type of Avril's pet Monty
-# ans4 = users["Avril"][:pets][0][:species]
-# puts "4"
-# puts ans4
+  # ans4 = users["Avril"][:pets][0][:species]
+  # puts "4"
+  # puts ans4
 # 5. Get the smallest of Erik's lottery numbers
-# ans5 = users["Erik"][:lottery_numbers].min
-# puts ans5
+  # ans5 = users["Erik"][:lottery_numbers].min
+  # puts ans5
 # 6. Return an array of Avril's lottery numbers that are even
   # ans6 = users["Avril"][:lottery_numbers].select(&:even?).join(", ")
   # puts ans6
@@ -85,16 +85,16 @@ users = {
   #   name: "Fluffy",
   #   species: "dog"
   # }
-  # 10. Add another person to the users hash
-# users.merge!("Michael" => {
-#     :twitter => "BigMike",
-#     :lottery_numbers => [8, 18, 28, 38, 48, 58],
-#     :home_town => "Hong Kong",
-#     :pets => [
-#     {
-#       :name => "BorkChop",
-#       :species => "doggo"
-#     }
-#   ]
-#   }
-# )
+# 10. Add another person to the users hash
+  # users.merge!("Michael" => {
+  #     :twitter => "BigMike",
+  #     :lottery_numbers => [8, 18, 28, 38, 48, 58],
+  #     :home_town => "Hong Kong",
+  #     :pets => [
+  #     {
+  #       :name => "BorkChop",
+  #       :species => "doggo"
+  #     }
+  #   ]
+  #   }
+  # )
