@@ -67,8 +67,7 @@ users = {
 # puts "3"
 # puts ans3
 # 4. Get the type of Avril's pet Monty
-# ISSUE
-# ans4 = users["Avril"][:pets][:species]
+# ans4 = users["Avril"][:pets][0][:species]
 # puts "4"
 # puts ans4
 # 5. Get the smallest of Erik's lottery numbers
@@ -86,15 +85,16 @@ users = {
   #   name: "Fluffy",
   #   species: "dog"
   # }
-# 10. Add another person to the users hash
-users <<  "Michael" => {
-    :twitter => "BigMike",
-    :lottery_numbers => [8, 18, 28, 38, 48, 58],
-    :home_town => "Hong Kong",
-    :pets => [
-    {
-      :name => "BorkChop",
-      :species => "doggo"
-    }
-  ]
-  }
+  # 10. Add another person to the users hash
+# users.merge!("Michael" => {
+#     :twitter => "BigMike",
+#     :lottery_numbers => [8, 18, 28, 38, 48, 58],
+#     :home_town => "Hong Kong",
+#     :pets => [
+#     {
+#       :name => "BorkChop",
+#       :species => "doggo"
+#     }
+#   ]
+#   }
+# )
